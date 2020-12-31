@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Recipe from './Recipe';
 import './App.css';
-require('dotenv').config();
-process.env.CI = false;
 
 const App = () => {
   const APP_ID = '0a4dec5c'
