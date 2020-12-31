@@ -11,7 +11,7 @@ const App = () => {
   const [query, setQuery] = useState('chicken');
     
   useEffect(() => {
-    await getRecipes();
+    getRecipes();
   }, [query]);
 
   const getRecipes = async () => {
